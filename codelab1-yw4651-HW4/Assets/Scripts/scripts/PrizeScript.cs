@@ -47,7 +47,7 @@ public class PrizeScript : MonoBehaviour
         else if (transform.GetComponent<SpriteRenderer>().color != colorA) //when the prize is purple on collison
         {
 
-            GameManager.instance.Score--; //decrease the player's score using the Singleton!
+           
             Debug.Log("Score: " + GameManager.instance.Score); //print the score to console, using the Singleton
             transform.position = new Vector2(Random.Range(-4, 4), Random.Range(-4, 4)); //teleport to a random location
 
