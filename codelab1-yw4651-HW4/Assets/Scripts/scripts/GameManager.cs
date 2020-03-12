@@ -72,7 +72,7 @@ public class GameManager : MonoBehaviour
         {
             for (int i = 0; i < 10; i++) //create a new default high score list
             {
-                highScoreNames.Add("DAM");
+                highScoreNames.Add("Player");
                 highScoreNums.Add(100 + i * 10);
             }
         }
